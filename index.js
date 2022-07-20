@@ -8,6 +8,19 @@ const Manager = require("./lib/Manager");
 
 // set up an empty array for the Team Members
 
+inquirer
+  .prompt([
+            {type:"input", 
+            message:"What is the manager's name?",
+            name:"name"},
+            {type:"input", 
+            message:"What is the employee's email?",
+            name:"email"},
+            {type:"input", 
+            message:"What is the employee's office number",
+            name:"office"},
+     ])
+
 // set up functions for iniitalizing the app, creating a manager, determining which type of employee the user wants to add, adding each member type, and building the team
 
 // function for INITIALIZING ////////////////
