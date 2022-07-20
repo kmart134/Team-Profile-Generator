@@ -1,4 +1,7 @@
 const inquirer = require("inquirer");
+const Intern = require("./lib/Intern");
+const Engineer = require("./lib/Engineer");
+const Manager = require("./lib/Manager");
 
 // require all of your classes/constructors, (Manager, Engineer, Intern)
 // require packages needed (inquirer, path, fs)
