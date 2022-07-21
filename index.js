@@ -131,7 +131,7 @@ function init() {
     // function for BUIDING THE TEAM //////////////////
     function buildTeam() {
       if(!fs.existsSync(OUTPUT_DIR)){
-        fs.mkdirSynch(OUTPUT_DIR)
+        fs.mkdirSync(OUTPUT_DIR)
       }
       fs.writeFileSync(outputPath, generateHTML(teamMembers),"utf-8");
       // creating the file, adding your team to it
