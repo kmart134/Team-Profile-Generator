@@ -3,9 +3,9 @@
 ## About the Project
 Hello, this Node.js command-line application takes in information about employees and generates an HTML webpage that displays summaries for each person. 
 
-IMAGE
+![image](./dist/MyTeam%20Screenshot.png)
 
-VIDEO LINK
+https://drive.google.com/file/d/16Ax81MXNbTsP1jNVic97D7Ghf2ry7vRr/view 
 
 ## Built with:
 -HTML
